@@ -7,7 +7,7 @@ self.addEventListener("install", (event) => {
     event.waitUntil(
         addResourcesToCache([
             "/",
-            "/myapp.html",
+            "/index.html",
         ]),
     );
 });
